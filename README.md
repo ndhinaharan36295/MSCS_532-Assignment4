@@ -11,7 +11,7 @@ The code is written in Python and includes detailed performance analysis, theore
 
 ---
 
-## 📁 Contents
+## Contents
 
 - `heap_sort.py` – Heapsort algorithm using a max-heap (1-based indexing, CLRS style).
 - `priority_queue.py` – Min-heap-based priority queue with `insert`, `extract_min`, and `decrease_key`.
@@ -19,11 +19,14 @@ The code is written in Python and includes detailed performance analysis, theore
 
 ---
 
-## ⚙️ How to Run the Code
+## How to Run the Code
 
 ### Requirements
-- Python 3.7 or higher
-- No external libraries required (only `time` and optionally `matplotlib` for benchmarking)
+- Python 3.9 or higher
+- external libraries required -- `tabulate`:
+```
+pip install tabulate
+```
 
 ### Running Heapsort
 ```
